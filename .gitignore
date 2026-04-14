@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Data
+data/*.csv
+data/*.zip
+data/*.gz
+
+# Keep small sample or output files only if needed
+!data/.gitkeep
+!data/final_panel.csv
+!data/master_panel_with_intermediates.csv
