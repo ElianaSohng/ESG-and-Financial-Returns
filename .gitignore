@@ -14,3 +14,6 @@ data/*.gz
 # Keep directory structure and the shared final panel
 !data/.gitkeep
 !data/final_panel.csv
+
+# Local checking scripts
+src/check_panel.py
