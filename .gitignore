@@ -6,12 +6,11 @@
 __pycache__/
 *.pyc
 
-# Data
+# Data - ignore all raw/large data files
 data/*.csv
 data/*.zip
 data/*.gz
 
-# Keep small sample or output files only if needed
+# Keep directory structure and the shared final panel
 !data/.gitkeep
 !data/final_panel.csv
-!data/master_panel_with_intermediates.csv
